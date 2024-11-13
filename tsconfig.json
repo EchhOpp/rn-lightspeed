@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
+    "declaration": true, 
     "target": "es5",              
     "module": "esnext",           
     "moduleResolution": "node",     
+    "allowJs": true,    
+    "checkJs": false, 
     "strict": true,              
     "jsx": "react-native",       
     "esModuleInterop": true,     
