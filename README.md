@@ -2,7 +2,7 @@
 
 `rn-lightspeed` is a powerful and flexible React Native library designed to simplify your styling process and enhance responsiveness. It helps you build beautiful layouts with minimal effort, enabling fast and responsive UIs for mobile applications.
 
-> [INFO]
+> [!NOTE]
 > To ensure that you read the most recent version of the documentation, please refer to the [GitHub repository](https://github.com/kennex666/rn-lightspeed)
 
 ## Features:
