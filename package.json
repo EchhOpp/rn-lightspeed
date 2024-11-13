@@ -1,13 +1,13 @@
 {
   "name": "rn-lightspeed",
-  "version": "1.0.0",
-  "description": "A React Native library that allows you to focus on handling logic, reducing the work required for writing styles and responsiveness.", 
+  "version": "1.0.1",
+  "description": "A React Native library that allows you to focus on handling logic, reducing the work required for writing styles and responsiveness.",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts", 
+  "types": "dist/index.d.ts",
   "files": [
     "dist",
     "README.md",
-    "LICENSE" 
+    "LICENSE"
   ],
   "exports": {
     ".": {
@@ -16,7 +16,7 @@
     }
   },
   "scripts": {
-    "clean": "rimraf dist", 
+    "clean": "rimraf dist",
     "test": "jest",
     "publish": "npm publish",
     "build": "tsc",
@@ -25,10 +25,18 @@
     "prettier": "prettier --write .",
     "release": "standard-version"
   },
-  "keywords": [ "react-native", "react", "library", "components", "hooks", "rn-lightspeed", "react-faster" ],
+  "keywords": [
+    "react-native",
+    "react",
+    "library",
+    "components",
+    "hooks",
+    "rn-lightspeed",
+    "react-faster"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kennex666/rn-lightspeed"  
+    "url": "git+https://github.com/kennex666/rn-lightspeed"
   },
   "bugs": {
     "url": "https://github.com/kennex666/rn-lightspeed/issues",
