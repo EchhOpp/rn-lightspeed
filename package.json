@@ -28,10 +28,14 @@
   "keywords": [ "react-native", "react", "library", "components", "hooks", "rn-lightspeed", "react-faster" ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/my-react-native-library.git" 
+    "url": "git+https://github.com/kennex666/rn-lightspeed.git" 
   },
-  "author": "Kennex <me@dtbao.io.vn>",
-  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennex666/rn-lightspeed/issues",
+    "email": "project@hostname.com"
+  },
+  "author": "Kennex666 <me@dtbao.io.vn> (https://dtbao.io.vn)",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^4.4.0",
     "@babel/cli": "^7.25.9",
