@@ -360,3 +360,5 @@ dist/
 
 # Giữ lại tệp TypeScript gốc
 !src/**/*.ts
+
+.npmrc
