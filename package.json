@@ -28,11 +28,11 @@
   "keywords": [ "react-native", "react", "library", "components", "hooks", "rn-lightspeed", "react-faster" ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kennex666/rn-lightspeed.git" 
+    "url": "git+https://github.com/kennex666/rn-lightspeed"  
   },
   "bugs": {
     "url": "https://github.com/kennex666/rn-lightspeed/issues",
-    "email": "project@hostname.com"
+    "email": "me@dtbao.io.vn"
   },
   "author": "Kennex666 <me@dtbao.io.vn> (https://dtbao.io.vn)",
   "license": "MIT",

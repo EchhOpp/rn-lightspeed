@@ -80,7 +80,9 @@ You can customize the Stack component with various props like justifyContent, al
 
 ### `Stack` Component (a.k.a View)
 
-The `Stack` component is a container component that arranges its children in a horizontal or vertical stack. It supports various layout options like justifyContent, alignItems, gap, width, height, and backgroundColor.
+The `Stack` (a.k.a `View`) component is a container component that arranges its children in a horizontal or vertical stack. It supports various layout options like justifyContent, alignItems, gap, width, height, and backgroundColor.
+
+For easier use, you can use the `View` component instead of the `Stack` component, especially if you're familiar with React Native.
 
 #### Props:
 
@@ -123,11 +125,11 @@ The `Stack` component is a container component that arranges its children in a h
 </Stack>
 ```
 
-## `Text` Component
+### `Text` Component
 
 The `Text` component is used to display styled text. You can customize the font size, weight, style, alignment, color, and other text properties.
 
-### Props:
+#### Props:
 
 - `children?`:  
   Type: `React.ReactNode`  
@@ -165,7 +167,7 @@ The `Text` component is used to display styled text. You can customize the font 
   Type: `string`  
   The value of the text. This prop allows you to provide the text content as a string. This is an optional prop if you're passing children directly as text content.
 
-### Example:
+#### Example:
 
 1. Traditional way:
 ```tsx
