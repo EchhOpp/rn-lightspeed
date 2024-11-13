@@ -1,0 +1,47 @@
+{
+  "name": "rn-lightspeed",
+  "version": "1.0.0",
+  "description": "A React Native library that allows you to focus on handling logic, reducing the work required for writing styles and responsiveness.", 
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts", 
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE" 
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "clean": "rimraf dist", 
+    "test": "jest",
+    "publish": "npm publish",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint . --ext .ts,.tsx",
+    "prettier": "prettier --write .",
+    "release": "standard-version"
+  },
+  "keywords": [ "react-native", "react", "library", "components", "hooks", "rn-lightspeed", "react-faster" ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/my-react-native-library.git" 
+  },
+  "author": "Kennex <me@dtbao.io.vn>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.0",
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@types/react": "^18.3.12"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-native": "^0.76.1"
+  }
+}

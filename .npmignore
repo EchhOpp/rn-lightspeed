@@ -1,0 +1,19 @@
+# Bỏ qua tệp TypeScript gốc
+src/
+
+# Bỏ qua thư mục chứa các tệp build
+dist/
+
+# Bỏ qua tệp cấu hình TypeScript (tsconfig)
+tsconfig.json
+
+# Bỏ qua các tệp thử nghiệm
+tests/
+*.test.ts
+
+# Bỏ qua các tệp khác không cần thiết
+.git/
+.gitignore
+.npmignore
+README.md
+LICENSE
